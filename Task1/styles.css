@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-color: white;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: bisque;
+    width:100%;
+    background-image:url("background1.avif");
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .user-profile{
+    margin-left: 10px;
+    text-decoration: none;
+    
+  }
+  .bt{
+   
+    border: none;
+    font-size: large;
+    background-color: #f9b942;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    
+
+  }
+  .bt a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+  }
+  
+  .hero {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  form input,
+  form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    border: none;
+  }
+  
+  form button {
+    background-color: #f9b942;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #popular-destinations,
+  #featured-hotels,
+  #explore-holidays {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-media img {
+    height: 20px;
+    margin: 0 5px;
+  }
+
+  .pics{
+    margin-left: 100px;
+    margin-right: 30px;
+     display: flex;
+    }
+    .pics img{
+        margin-right: 10px; 
+    }
+    
+    .hotelpics{
+    margin-left: 100px;
+    margin-right: 70px;
+     display: flex;
+    }
+    .hotelpics img{
+        margin-right: 10px; 
+    }
